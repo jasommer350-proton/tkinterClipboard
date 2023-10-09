@@ -55,6 +55,8 @@ def update_entry(event):
 
 root = tk.Tk()
 
+root.geometry("300x300")  # Width x Height
+
 label = tk.Label(text="Name:")
 label.pack()
 
